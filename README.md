@@ -18,7 +18,7 @@ A basic boilerplate was used and prepped. Our steps were then:
 
 <img src="src/assets/Horses.png" alt="Horses" width="500">
 
-## The site
+## Tech
 
 React, JavaScript, CSS, HTML, accessibility.
 

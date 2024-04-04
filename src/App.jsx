@@ -3,11 +3,11 @@ import './App.css'
 
 export const App = () => {
   const [iteration, setIteration] = useState(0);
-  // *** Niece's pick of colors ***
+  // *** Niece's pick of background colors ***
   const colors = ['#a88ff6', 'lightblue', 'pink'];
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
 
-  // Change color every 2 seconds. The color for reduced motions is purple.
+  // useEffect to Change color every 2 seconds. The color chosen for reduced motions is purple.
   useEffect(() => {
     const interval = setInterval(() => {
       const index = iteration % colors.length;
@@ -23,9 +23,10 @@ export const App = () => {
       <div className="section">
         <div className="title">Hästar</div>
         <div>
-          {/* *** Niece's image of choose from Pixabay */}
-          <img src="https://cdn.pixabay.com/photo/2020/04/21/15/57/horse-5073632_1280.jpg" alt="Description of the image" className="image" />
+          {/* *** Niece's image of choice from Pixabay */}
+          <img src="https://cdn.pixabay.com/photo/2020/04/21/15/57/horse-5073632_1280.jpg" alt="Horse" className="image" />
         </div>
+        {/* *** Niece's text */}
         <div className="info-text">Gjord av Linkan. Jag valde häst tema för jag älskar hästar. Dom är så fina och dom har 4 ben. Jag lär mig mycket när jag rider. </div>
         <div className="centered-label"><label>
           {/* *** Niece's text for accessibility *** */}

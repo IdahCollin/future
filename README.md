@@ -2,13 +2,13 @@
 
 Kids are our future. I prepped a playground for my niece to help her create her first site. Maybe that's something all girls, 10 years of age, should have the opportunity to do in order to strengthen the equality in tech? ❤️
 
-Steps with niece
+A basic boilerplate was used and prepped. Our steps were then:
 1. Choose a fun theme!
 2. Decide and insert title
 3. Choose 3 backgroundcolors, insert
 4. Discuss, choose and insert text for accessibility
 5. Chose image, insert
-6. Insert info-text
+6. Write and insert info-text
 7. Celebrate!
 
 
@@ -22,6 +22,9 @@ Steps with niece
 
 React, JavaScript, CSS, HTML, accessibility.
 
+## Demo
+If I deployed it so she can save it and show her friends/family? Of course!
+https://linkan.netlify.app/
 
 ## Run project
 

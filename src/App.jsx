@@ -4,14 +4,14 @@ import './App.css'
 export const App = () => {
   const [iteration, setIteration] = useState(0);
   // *** Niece's pick of colors ***
-  const colors = ['white', 'white', 'white'];
+  const colors = ['#a88ff6', 'lightblue', 'pink'];
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
 
-  // Change color every 2 seconds
+  // Change color every 2 seconds. The color for reduced motions is purple.
   useEffect(() => {
     const interval = setInterval(() => {
       const index = iteration % colors.length;
-      document.body.style.backgroundColor = prefersReducedMotion ? '#ffff9b' : colors[index];
+      document.body.style.backgroundColor = prefersReducedMotion ? '#a88ff6' : colors[index];
       setIteration(iteration + 1);
     }, 2000);
 
@@ -21,15 +21,15 @@ export const App = () => {
   return (
     <>
       <div className="section">
-        <div className="title">Title</div>
+        <div className="title">Hästar</div>
         <div>
           {/* *** Niece's image of choose from Pixabay */}
-          <img src="" alt="Description of the image" className="image" />
+          <img src="https://cdn.pixabay.com/photo/2020/04/21/15/57/horse-5073632_1280.jpg" alt="Description of the image" className="image" />
         </div>
-        <div className="info-text">Text text</div>
+        <div className="info-text">Gjord av Linkan. Jag valde häst tema för jag älskar hästar. Dom är så fina och dom har 4 ben. Jag lär mig mycket när jag rider. </div>
         <div className="centered-label"><label>
           {/* *** Niece's text for accessibility *** */}
-          Accessibility<input
+          Stäng av blink<input
             type="checkbox"
             checked={prefersReducedMotion}
             onChange={(e) => setPrefersReducedMotion(e.target.checked)}

@@ -5,8 +5,12 @@
 
 .section {
   height: 100vh;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .title {
   font-size: xx-large;
@@ -19,5 +23,6 @@
 }
 
 .info-text {
+  width: 40%;
   margin-bottom: 8%;
 }

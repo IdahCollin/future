@@ -1,6 +1,6 @@
 # My niece's first site
 
-Kids are our future. I prepped a playground for my niece to help her create her first site. Maybe that's something all girls, 10 years of age, should have the opportunity to do in order to strengthen the equality in tech? ❤️
+Kids are our future. I prepped a playground for my niece to help her create her first site. Maybe that's something all 10-year-old girls should have the opportunity to do in order to increase equality in tech? ❤️
 
 A basic boilerplate was used and prepped. Our steps were then:
 1. Choose a fun theme!

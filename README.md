@@ -23,6 +23,7 @@ A basic boilerplate was used and prepped. Our steps were then:
 React, JavaScript, CSS, HTML, accessibility.
 
 ## Demo
+
 If I deployed it so she can save it and show her friends/family? Of course!
 https://linkan.netlify.app/
 
